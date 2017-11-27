@@ -20,6 +20,20 @@
         <seam.version>3.1.0.Final</seam.version>
         <emma.version>2.0.5312</emma.version>
     </properties>
+    
+    <distributionManagement>
+        <repository>
+            <id>haze-releases</id>
+            <name>Internal Haze Releases</name>
+            <url>https://repo.hazesoftware.com/nexus/content/repositories/haze-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>haze-snapshots</id>
+            <name>Internal Haze Snapshots</name>
+            <url>https://repo.hazesoftware.com/nexus/content/repositories/haze-snapshots</url>
+            <layout>default</layout>
+        </snapshotRepository>
+    </distributionManagement>    
 
     <modules>
         <module>api</module>
